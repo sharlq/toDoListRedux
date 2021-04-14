@@ -1,0 +1,60 @@
+.card{ 
+    margin: 10vw auto auto auto;
+    width: 40vw;
+    height: 60vh;
+    box-shadow: 1px 0 12px rgba(0, 0, 0, .2),
+    -1px 0 12px rgba(0, 0, 0, .2);
+    border-radius: 1vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    bottom: 2vh;
+    
+}
+.textbox{
+ border:1px solid rgba(0, 0, 0, .2) ;
+ outline: none;
+}
+.add{
+    border:1px solid rgba(0, 0, 0, .2) ;
+    outline: none;
+    background-color: rgb(55, 127, 194);
+    color: white;
+   }
+   .list{
+       position: absolute;
+       top:3vh;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 100%;
+       &-item{
+           color: rgb(59, 59, 59);
+           font-weight: 800;
+        width: 20vw;
+        background-color: rgba(0, 0, 0, .2);
+           position: relative;
+          margin-top: .5em;
+           label{
+               margin: 0;
+               margin-left: .25em;
+           }
+           input{
+               margin: 0;
+               margin-left: .25em;
+               width: 18px;
+               height: 18px;
+               position: absolute;
+              right: 0;
+              background: transparent;
+           }
+       }
+   }

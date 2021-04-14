@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import toDoReducer from "../features/checkbox/check"
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+   todos: toDoReducer
   },
 });
